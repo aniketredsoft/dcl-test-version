@@ -2,6 +2,9 @@
   "name": "1162c1d2-8a01-4fd6-bcce-146f2ba7187b",
   "version": "1.0.0",
   "description": "My new Decentraland project",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "CI=true dcl start -p ${PORT:=8000}",
     "build": "build-ecs",
